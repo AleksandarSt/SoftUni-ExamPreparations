@@ -41,6 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Ceo.cs" />
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Interfaces\IBoss.cs" />
+    <Compile Include="Models\Interfaces\ICompanyStructure.cs" />
+    <Compile Include="Models\Interfaces\IEmployee.cs" />
+    <Compile Include="Models\Interfaces\IPaidPerson.cs" />
+    <Compile Include="Models\Interfaces\IPerson.cs" />
+    <Compile Include="Models\Manager.cs" />
+    <Compile Include="Models\PaidPerson.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
