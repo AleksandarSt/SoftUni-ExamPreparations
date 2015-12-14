@@ -4,6 +4,6 @@ namespace Capitalism.Models.Interfaces
 {
     public interface IBoss
     {
-        ICollection<IEmployee> SubordinateEmployees { get; set; }
+        ICollection<IEmployee> SubordinateEmployees { get;}
     }
 }

@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Accountant.cs" />
     <Compile Include="Models\Ceo.cs" />
+    <Compile Include="Models\ChiefTelephoneOfficer.cs" />
+    <Compile Include="Models\CleaningLady.cs" />
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -52,11 +55,14 @@
     <Compile Include="Models\Interfaces\IPerson.cs" />
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\PaidPerson.cs" />
+    <Compile Include="Models\RegularEmployee.cs" />
+    <Compile Include="Models\Salesman.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

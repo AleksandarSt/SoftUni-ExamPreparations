@@ -3,8 +3,8 @@ using System;
 using System.Collections.Generic;
 namespace Capitalism.Models
 {
-    public class Ceo:IBoss
+    public class Ceo:PaidPerson,IBoss
     {
-        public ICollection<IEmployee> SubordinateEmployees { get;}
+        public ICollection<IEmployee> SubordinateEmployees { get; set; }
     }
 }

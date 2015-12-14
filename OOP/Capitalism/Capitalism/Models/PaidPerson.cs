@@ -1,4 +1,5 @@
-﻿namespace Capitalism.Models
+﻿using Capitalism.Models.Interfaces;
+namespace Capitalism.Models
 {
     public abstract class PaidPerson:IPerson,IPaidPerson
     {
