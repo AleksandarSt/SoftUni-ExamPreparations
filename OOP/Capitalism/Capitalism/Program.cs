@@ -1,4 +1,5 @@
-﻿
+﻿using Capitalism.Execution;
+using Capitalism.Interfaces;
 
 namespace Capitalism
 {
@@ -6,6 +7,8 @@ namespace Capitalism
     {
         public static void Main()
         {
+            IEngine engine = new CapitalismEngine();
+            engine.Run();
         }
     }
 }

@@ -8,6 +8,12 @@ namespace Capitalism.Models
         private string name;
         private CEO ceo;
 
+        public Company(string name,CEO ceo)
+        {
+            this.Name = name;
+            this.CEO = ceo;
+        }
+
         public string Name
         {
             get { return this.name; }
