@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Blobs.MainProgram" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MainProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blobs.Models.Aggressive" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Aggressive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blobs.Models.Behavior" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Behavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blobs.Models.Blob" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAgAAAAAAAAAQAAAAEAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\Blob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blobs.Models.Inflated" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Inflated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Blobs.Models.Interfaces.IAggressive" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IAggressive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Blobs.Models.Interfaces.IBlob" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IBlob.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Blobs.Models.Interfaces.IInflated" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IInflated.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
