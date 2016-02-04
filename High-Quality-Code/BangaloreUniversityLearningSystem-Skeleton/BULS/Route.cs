@@ -31,7 +31,12 @@
                 foreach (var pair in parameterPairs)
                 {
                     string[] name_value = pair.Split('=');
-                    this._parameters.Add(WebUtility.UrlDecode(name_value[1]), WebUtility.UrlDecode(name_value[0]));
+
+                    //BUG:Key and value were swaped
+                    this._parameters.Add(
+                        WebUtility.UrlDecode(name_value[0]),
+                        WebUtility.UrlDecode(name_value[1])
+                        );
                 }
             }
         }

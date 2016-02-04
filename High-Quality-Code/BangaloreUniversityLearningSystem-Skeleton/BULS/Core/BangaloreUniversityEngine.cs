@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Interfaces;
@@ -39,7 +40,35 @@ namespace buls.Core
 
         private static object[] MapParameters(Route route, MethodInfo action)
         {
-            return action.GetParameters().Select<ParameterInfo, object>(p => { if (p.ParameterType == typeof(int)) return int.Parse(route._parameters[p.Name]); else return route._parameters[p.Name]; }).ToArray();
+            //return action.GetParameters()
+            //    .Select<ParameterInfo, object>(
+            //    p =>
+            //        {
+            //            if (p.ParameterType == typeof (int))
+            //                return int.Parse(route._parameters[p.Name]);
+            //            else
+            //                return route._parameters[p.Name];
+            //        }
+            //    )
+            //    .ToArray();
+
+            var expectedMethodParameters = action.GetParameters();
+            var argumentsToPass=new List<object>();
+
+            foreach (ParameterInfo param in expectedMethodParameters)
+            {
+                var currentArgument = route._parameters[param.Name];
+                if (param.ParameterType==typeof(int))
+                {
+                    argumentsToPass.Add(int.Parse(currentArgument));
+                }
+                else
+                {
+                    argumentsToPass.Add(currentArgument);
+                }
+            }
+
+            return argumentsToPass.ToArray();
         }
     }
 }
