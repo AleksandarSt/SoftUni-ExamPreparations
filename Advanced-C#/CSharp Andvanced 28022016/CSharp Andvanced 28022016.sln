@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectResources", "CollectResources\CollectResources.csproj", "{04178AEF-EF86-4A47-BAC8-55AE79AFD8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softuni-Numerals", "Softuni-Numerals\Softuni-Numerals.csproj", "{7253FE8A-FB53-4A3C-AB74-7BCC848262A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking-System", "Parking-System\Parking-System.csproj", "{76BA8B73-A211-4A91-B28F-DCA0B4748DCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04178AEF-EF86-4A47-BAC8-55AE79AFD8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04178AEF-EF86-4A47-BAC8-55AE79AFD8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04178AEF-EF86-4A47-BAC8-55AE79AFD8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04178AEF-EF86-4A47-BAC8-55AE79AFD8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7253FE8A-FB53-4A3C-AB74-7BCC848262A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7253FE8A-FB53-4A3C-AB74-7BCC848262A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7253FE8A-FB53-4A3C-AB74-7BCC848262A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7253FE8A-FB53-4A3C-AB74-7BCC848262A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BA8B73-A211-4A91-B28F-DCA0B4748DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BA8B73-A211-4A91-B28F-DCA0B4748DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BA8B73-A211-4A91-B28F-DCA0B4748DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BA8B73-A211-4A91-B28F-DCA0B4748DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
